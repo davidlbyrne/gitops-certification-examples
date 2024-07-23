@@ -1,8 +1,9 @@
 ---
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: simple-deployment
+  test: added some bs 
 spec:
   replicas: 1
   selector:
